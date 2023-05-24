@@ -17,8 +17,11 @@ int main() /* sort a string from a keyboard */
 	return (0);
 }
 
-/* The bubble sort */
-
+/**
+ * The bubble sort
+ * The comparisons are 3/4(n^2 - n) for average case
+ * and 3/2(n^2 - n) for the worst case
+*/
 void bubble(item, count)
 char *item;
 int count;
